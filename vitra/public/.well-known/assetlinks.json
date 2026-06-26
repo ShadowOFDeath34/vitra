@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.vitra.wellness",
+      "sha256_cert_fingerprints": [
+        "01:7D:ED:FC:22:56:F7:C1:44:A4:74:94:3F:D6:24:2D:2B:90:67:8C:2D:59:8C:9C:26:FE:11:3E:E8:BC:C7:C6"
+      ]
+    }
+  }
+]

@@ -1,0 +1,159 @@
+{
+  "@@locale": "tr",
+
+  "appName": "Vitra",
+  "appTagline": "wellness. elevated.",
+
+  "splashTagline": "wellness. elevated.",
+
+  "onboardingWelcomeTitle": "Hoş Geldin",
+  "onboardingWelcomeSubtitle": "Sağlıklı bir yaşam için su takibin, öğünlerin ve günlük rutinlerin tek bir yerde.",
+  "onboardingWelcomeCta": "Başlayalım",
+  "onboardingAlreadyHaveAccount": "Zaten hesabım var",
+
+  "onboardingGoalTitle": "Hedefin ne?",
+  "onboardingGoalSubtitle": "Sana özel bir plan oluşturalım.",
+  "onboardingGoalLoseWeight": "Kilo vermek",
+  "onboardingGoalGainMuscle": "Kas kazanmak",
+  "onboardingGoalStayHealthy": "Sağlıklı kalmak",
+  "onboardingGoalEatBetter": "Daha iyi beslenme",
+  "onboardingGoalDrinkMore": "Daha fazla su içmek",
+  "onboardingGoalBuildHabits": "Alışkanlık oluşturmak",
+
+  "onboardingLifestyleTitle": "Yaşam tarzın nasıl?",
+  "onboardingLifestyleSubtitle": "Günlük su ve kalori hedefini buna göre ayarlayalım.",
+  "onboardingLifestyleSedentary": "Hareketsiz",
+  "onboardingLifestyleSedentaryDesc": "Masabaşı çalışıyorum, az hareket",
+  "onboardingLifestyleLight": "Hafif aktif",
+  "onboardingLifestyleLightDesc": "Haftada 1-3 gün egzersiz",
+  "onboardingLifestyleModerate": "Orta aktif",
+  "onboardingLifestyleModerateDesc": "Haftada 3-5 gün egzersiz",
+  "onboardingLifestyleVery": "Çok aktif",
+  "onboardingLifestyleVeryDesc": "Haftada 6-7 gün yoğun antrenman",
+
+  "onboardingWaterTitle": "Günlük su hedefin?",
+  "onboardingWaterSubtitle": "Önerilen hedef {amount} litre.",
+  "@onboardingWaterSubtitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+
+  "onboardingRoutineTitle": "Hangi rutinleri takip etmek istiyorsun?",
+  "onboardingRoutineSubtitle": "İstediğin zaman değiştirebilirsin.",
+  "routineMeditation": "Meditasyon",
+  "routineExercise": "Egzersiz",
+  "routineSleep": "Uyku düzeni",
+  "routineReading": "Okuma",
+  "routineNoPhone": "Telefon molası",
+  "routineVitamins": "Vitamin/ilaç",
+  "routineStretch": "Esneme",
+  "routineColdShower": "Soğuk duş",
+
+  "onboardingNotificationTitle": "Hatırlatıcılar açık olsun mu?",
+  "onboardingNotificationSubtitle": "Su içme ve rutin hatırlatmaları için bildirimler.",
+  "onboardingNotificationEnable": "Evet, açık kalsın",
+  "onboardingNotificationSkip": "Şimdi değil",
+
+  "onboardingPremiumTitle": "Vitra Premium",
+  "onboardingPremiumSubtitle": "AI fotoğraf analizi, sınırsız istatistik ve daha fazlası.",
+  "onboardingPremiumFeature1": "Sınırsız AI yemek analizi",
+  "onboardingPremiumFeature2": "30 ve 90 günlük istatistikler",
+  "onboardingPremiumFeature3": "Öncelikli destek",
+  "onboardingPremiumCta": "Ücretsiz dene",
+  "onboardingPremiumSkip": "Ücretsiz devam et",
+
+  "buttonNext": "Devam",
+  "buttonBack": "Geri",
+  "buttonSkip": "Atla",
+  "buttonDone": "Tamam",
+  "buttonSave": "Kaydet",
+  "buttonCancel": "İptal",
+
+  "authSignIn": "Giriş Yap",
+  "authSignUp": "Kayıt Ol",
+  "authEmail": "E-posta",
+  "authPassword": "Şifre",
+  "authForgotPassword": "Şifremi unuttum",
+  "authContinueAsGuest": "Misafir olarak devam et",
+  "authOrContinueWith": "veya şununla devam et",
+  "authGoogleSignIn": "Google ile giriş yap",
+  "authAppleSignIn": "Apple ile giriş yap",
+
+  "dashboardGreetingMorning": "Günaydın",
+  "dashboardGreetingAfternoon": "İyi öğleden sonralar",
+  "dashboardGreetingEvening": "İyi akşamlar",
+  "dashboardTodayProgress": "Bugünkü ilerleme",
+  "dashboardWater": "Su",
+  "dashboardCalories": "Kalori",
+  "dashboardRoutines": "Rutin",
+
+  "waterTitle": "Su Takibi",
+  "waterGoal": "{current} / {goal} ml",
+  "@waterGoal": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "goal": {"type": "int"}
+    }
+  },
+  "waterAddQuick": "Hızlı Ekle",
+  "waterAddCustom": "Özel Miktar",
+  "waterHistory": "Bugünkü Su",
+
+  "mealTitle": "Öğün Takibi",
+  "mealBreakfast": "Kahvaltı",
+  "mealLunch": "Öğle",
+  "mealDinner": "Akşam",
+  "mealSnack": "Ara Öğün",
+  "mealAddPhoto": "Fotoğrafla Analiz Et",
+  "mealAddManual": "Manuel Ekle",
+
+  "routineTitle": "Rutinlerim",
+  "routineStreak": "{count} günlük seri",
+  "@routineStreak": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "routineCompleted": "{done}/{total} tamamlandı",
+  "@routineCompleted": {
+    "placeholders": {
+      "done": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "statsTitle": "İstatistikler",
+  "stats7Days": "7 Gün",
+  "stats30Days": "30 Gün",
+  "stats90Days": "90 Gün",
+  "statsPremiumRequired": "Premium üyelik gerekiyor",
+
+  "settingsTitle": "Ayarlar",
+  "settingsProfile": "Profil",
+  "settingsGoals": "Hedefler",
+  "settingsNotifications": "Bildirimler",
+  "settingsPremium": "Premium",
+  "settingsLanguage": "Dil",
+  "settingsSignOut": "Çıkış Yap",
+
+  "premiumTitle": "Premium'a Geç",
+  "premiumWeekly": "Haftalık",
+  "premiumMonthly": "Aylık",
+  "premiumYearly": "Yıllık",
+  "premiumBestValue": "En iyi değer",
+  "premiumRestore": "Satın almayı geri yükle",
+  "premiumFreeTrial": "{days} gün ücretsiz dene",
+  "@premiumFreeTrial": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+
+  "errorGeneral": "Bir şeyler ters gitti. Tekrar dene.",
+  "errorNoInternet": "İnternet bağlantısı yok",
+  "errorRetry": "Tekrar Dene",
+  "emptyStateNoData": "Henüz veri yok"
+}

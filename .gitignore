@@ -1,0 +1,52 @@
+# ============================================================
+# Vitra — Whitelist .gitignore
+# Varsayilan: kokteki HER SEY haric.
+# Yalnizca asagida acikca izin verilenler repoya dahil edilir.
+# Bu yaklasim, gizli dosya / strateji dokumani / veri dump'i
+# kazara bile commit'lenmesini imkansiz kilar.
+# ============================================================
+
+# 1) Once kok seviyedeki her seyi yok say
+/*
+
+# 2) Sadece sunlari dahil et
+!/.gitignore
+!/README.md
+!/LICENSE
+!/vitra/
+
+# ============================================================
+# vitra/ (Flutter uygulamasi) icindeki HASSAS ve TURETILMIS
+# dosyalar — re-include edilmis olsa da asla commit'lenmez
+# ============================================================
+
+# --- Tescilli yemek veritabani (rekabet varligi — ASLA public olmamali) ---
+# Veri dosyalari haric; turkish_foods_db.dart (model + arama mantigi) kalir.
+vitra/lib/core/data/foods_*.dart
+
+# --- Sirlar / kimlik bilgileri ---
+vitra/**/.env
+vitra/**/*.env
+vitra/android/key.properties
+vitra/**/google-services.json
+vitra/**/GoogleService-Info.plist
+vitra/lib/firebase_options.dart
+vitra/**/*.keystore
+vitra/**/*.jks
+vitra/**/*.p12
+vitra/**/*.pem
+
+# --- Derleme / arac ciktilari (otomatik uretilir) ---
+vitra/.dart_tool/
+vitra/build/
+vitra/android/build/
+vitra/**/build/
+vitra/.firebase/
+vitra/.flutter-plugins
+vitra/.flutter-plugins-dependencies
+vitra/android/.gradle/
+vitra/android/.kotlin/
+vitra/**/.cxx/
+vitra/ios/Pods/
+vitra/ios/.symlinks/
+vitra/**/*.log

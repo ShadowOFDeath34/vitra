@@ -1,0 +1,159 @@
+{
+  "@@locale": "en",
+
+  "appName": "Vitra",
+  "appTagline": "wellness. elevated.",
+
+  "splashTagline": "wellness. elevated.",
+
+  "onboardingWelcomeTitle": "Welcome",
+  "onboardingWelcomeSubtitle": "Track your water, meals, and daily routines — all in one place.",
+  "onboardingWelcomeCta": "Get Started",
+  "onboardingAlreadyHaveAccount": "I already have an account",
+
+  "onboardingGoalTitle": "What's your goal?",
+  "onboardingGoalSubtitle": "Let's build a plan just for you.",
+  "onboardingGoalLoseWeight": "Lose weight",
+  "onboardingGoalGainMuscle": "Gain muscle",
+  "onboardingGoalStayHealthy": "Stay healthy",
+  "onboardingGoalEatBetter": "Eat better",
+  "onboardingGoalDrinkMore": "Drink more water",
+  "onboardingGoalBuildHabits": "Build healthy habits",
+
+  "onboardingLifestyleTitle": "How active are you?",
+  "onboardingLifestyleSubtitle": "We'll set your water and calorie goals accordingly.",
+  "onboardingLifestyleSedentary": "Sedentary",
+  "onboardingLifestyleSedentaryDesc": "Desk job, little movement",
+  "onboardingLifestyleLight": "Lightly active",
+  "onboardingLifestyleLightDesc": "Exercise 1-3 days a week",
+  "onboardingLifestyleModerate": "Moderately active",
+  "onboardingLifestyleModerateDesc": "Exercise 3-5 days a week",
+  "onboardingLifestyleVery": "Very active",
+  "onboardingLifestyleVeryDesc": "Intense training 6-7 days a week",
+
+  "onboardingWaterTitle": "Daily water goal?",
+  "onboardingWaterSubtitle": "Recommended goal is {amount} liters.",
+  "@onboardingWaterSubtitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+
+  "onboardingRoutineTitle": "Which routines do you want to track?",
+  "onboardingRoutineSubtitle": "You can change these anytime.",
+  "routineMeditation": "Meditation",
+  "routineExercise": "Exercise",
+  "routineSleep": "Sleep schedule",
+  "routineReading": "Reading",
+  "routineNoPhone": "Phone break",
+  "routineVitamins": "Vitamins/meds",
+  "routineStretch": "Stretching",
+  "routineColdShower": "Cold shower",
+
+  "onboardingNotificationTitle": "Enable reminders?",
+  "onboardingNotificationSubtitle": "Get notified to drink water and complete your routines.",
+  "onboardingNotificationEnable": "Yes, keep them on",
+  "onboardingNotificationSkip": "Not now",
+
+  "onboardingPremiumTitle": "Vitra Premium",
+  "onboardingPremiumSubtitle": "AI photo analysis, unlimited stats and more.",
+  "onboardingPremiumFeature1": "Unlimited AI meal analysis",
+  "onboardingPremiumFeature2": "30 and 90-day statistics",
+  "onboardingPremiumFeature3": "Priority support",
+  "onboardingPremiumCta": "Try free",
+  "onboardingPremiumSkip": "Continue for free",
+
+  "buttonNext": "Continue",
+  "buttonBack": "Back",
+  "buttonSkip": "Skip",
+  "buttonDone": "Done",
+  "buttonSave": "Save",
+  "buttonCancel": "Cancel",
+
+  "authSignIn": "Sign In",
+  "authSignUp": "Create Account",
+  "authEmail": "Email",
+  "authPassword": "Password",
+  "authForgotPassword": "Forgot password",
+  "authContinueAsGuest": "Continue as guest",
+  "authOrContinueWith": "or continue with",
+  "authGoogleSignIn": "Sign in with Google",
+  "authAppleSignIn": "Sign in with Apple",
+
+  "dashboardGreetingMorning": "Good morning",
+  "dashboardGreetingAfternoon": "Good afternoon",
+  "dashboardGreetingEvening": "Good evening",
+  "dashboardTodayProgress": "Today's progress",
+  "dashboardWater": "Water",
+  "dashboardCalories": "Calories",
+  "dashboardRoutines": "Routines",
+
+  "waterTitle": "Water Tracker",
+  "waterGoal": "{current} / {goal} ml",
+  "@waterGoal": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "goal": {"type": "int"}
+    }
+  },
+  "waterAddQuick": "Quick Add",
+  "waterAddCustom": "Custom Amount",
+  "waterHistory": "Today's Water",
+
+  "mealTitle": "Meal Tracker",
+  "mealBreakfast": "Breakfast",
+  "mealLunch": "Lunch",
+  "mealDinner": "Dinner",
+  "mealSnack": "Snack",
+  "mealAddPhoto": "Analyze with Photo",
+  "mealAddManual": "Add Manually",
+
+  "routineTitle": "My Routines",
+  "routineStreak": "{count}-day streak",
+  "@routineStreak": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "routineCompleted": "{done}/{total} completed",
+  "@routineCompleted": {
+    "placeholders": {
+      "done": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "statsTitle": "Statistics",
+  "stats7Days": "7 Days",
+  "stats30Days": "30 Days",
+  "stats90Days": "90 Days",
+  "statsPremiumRequired": "Premium membership required",
+
+  "settingsTitle": "Settings",
+  "settingsProfile": "Profile",
+  "settingsGoals": "Goals",
+  "settingsNotifications": "Notifications",
+  "settingsPremium": "Premium",
+  "settingsLanguage": "Language",
+  "settingsSignOut": "Sign Out",
+
+  "premiumTitle": "Go Premium",
+  "premiumWeekly": "Weekly",
+  "premiumMonthly": "Monthly",
+  "premiumYearly": "Yearly",
+  "premiumBestValue": "Best value",
+  "premiumRestore": "Restore purchase",
+  "premiumFreeTrial": "Try free for {days} days",
+  "@premiumFreeTrial": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+
+  "errorGeneral": "Something went wrong. Please try again.",
+  "errorNoInternet": "No internet connection",
+  "errorRetry": "Try Again",
+  "emptyStateNoData": "No data yet"
+}
