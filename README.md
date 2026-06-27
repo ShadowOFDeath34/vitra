@@ -9,7 +9,7 @@ QA, and the data pipeline.
 
 ## Features
 
-- **Offline-first food database** — ~18,500 foods and dishes (Turkish + international)
+- **Offline-first food database** — ~300.000 foods and dishes (Turkish + international)
   compiled into the app, so search works without a connection
 - **Barcode scanning** for packaged products
 - **Daily calorie & macro tracking** — protein, carbohydrate, fat, fiber, sugar, sodium
